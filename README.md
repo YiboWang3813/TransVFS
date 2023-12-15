@@ -36,7 +36,7 @@ When you finish the download, please unpack the test dataset and put it into *da
 
 # Checkpoint Download 
 
-You can also download our trained model's weight from [Google Drive](https://drive.google.com/drive/folders/1y7FtAf-jz96UTb-Tfbs9ganu0fzdvhkJ?usp=drive_link). 
+You can also download our trained model's weight from [Google Drive](https://drive.google.com/file/d/1agppv93LfVxx59KTrsEB6KR4QEZLz_W5/view?usp=drive_link). 
 
 When you finish the download, please unpack the trained weight and put it into *checkpoint* dictionary. 
 
