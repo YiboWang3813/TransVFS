@@ -13,13 +13,8 @@ import random
 from typing import List 
 
 
-def build_dataset(args, set='train'): 
-    args.root_dir = os.path.join(args.dataroot, set) 
-    args.set = set 
-    # with open('settings_mask.json', 'r') as f: 
-    #     dir_mask = json.load(f) 
-    # f.close() 
-    # args.angles_pool = dir_mask[args.data_source][args.image_type][set] 
+def build_dataset(args): 
+    args.root_dir = args.dataroot 
     dataset = ImagetoForceDataset(args) 
     return dataset 
 
