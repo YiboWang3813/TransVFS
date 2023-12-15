@@ -451,18 +451,10 @@ def build_stfet(args):
     embed_dims = [int(nc) for nc in args.channels.split(',')] 
     num_heads = [int(nd) for nd in args.num_heads.split(',')] 
     str_to_depths_map_dict = {
-        'ATiny1': [None, 1, 1, 1], 
-        'ATiny2': [1, None, 1, 1],
-        'ATiny3': [1, 1, None, 1],
-        'ATiny4': [1, 1, 1, None],
         'Tiny': [1, 1, 1, 1], 
-        'ASmall': [2, 2, 1, 1], 
         'Small': [1, 1, 2, 2], 
-        'ABase1': [1, 4, 2, 2], 
-        'ABase2': [1, 2, 4, 2], 
         'Base': [1, 2, 2, 4], 
-        'Large': [1, 2, 4, 8],
-        'Huge': [4, 4, 8, 8]} 
+        'Large': [1, 2, 4, 8]} 
     depths = str_to_depths_map_dict[args.depths] 
 
     local_sizes = [(1, 2, 2, 2), (1, 2, 2, 2), (1, 2, 2, 2), (1, 2, 2, 2)] 
