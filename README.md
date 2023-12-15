@@ -43,7 +43,7 @@ When you finish the download, please unpack the trained weight and put it into *
 
 # Evaluate the model 
 
-Please run this command to evaluate the trained model. 
+Please follow this rule to evaluate the trained model. 
 
 ```
 python main.py --eval \
@@ -57,3 +57,22 @@ python main.py --eval \
 --gap 'Simple' \
 --batch_size 8
 ```
+
+For example, if you follow abormentioned steps to prepare the dataset and the trained weight, you can directly run this command to begin evaluation. The results will be stored in *./output* dictionary. 
+
+```
+python main.py --eval \
+--dataroot './dataset/test_dataset' \
+--resume './checkpoint/checkpoint.pth' \
+--output_dir './output' \
+--net_name 'TransVFS' \
+--depths 'Base' \
+--mode 'B' \
+--lambda_ 0.05 \
+--gap 'Simple' \
+--batch_size 8
+```
+
+# Notice 
+
+All codes should be used only for academic purpose. 
