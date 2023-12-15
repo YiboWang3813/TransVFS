@@ -10,6 +10,10 @@
 
 # Environment Requirement 
 
+Our codes mainly rely on these third-party libraries. 
+
+Please ensure they have been installed in your working environment before your using. 
+```
 python == 3.7.12 
 pytorch == 1.7.1 
 numpy == 1.19.2 
@@ -17,12 +21,14 @@ pandas == 1.1.5
 pillow == 1.8.1 
 scipy == 1.5.2 
 matplotlib == 3.2.2 
+```
 
 ---
 
 # Dataset Download 
 
 You can download our test dataset during the pushing stage on the TRUS dataset of Phantom from [Google Drive](https://drive.google.com/drive/folders/1YC87VCj74Zg5Y9DNk1sKIgx-jvQdtIWb?usp=drive_link). 
+
 When you finish the download, please unpack the test dataset and put it into *dataset* dictionary. 
 
 --- 
@@ -30,6 +36,7 @@ When you finish the download, please unpack the test dataset and put it into *da
 # Checkpoint Download 
 
 You can also download our trained model's weight from [Google Drive](https://drive.google.com/drive/folders/1y7FtAf-jz96UTb-Tfbs9ganu0fzdvhkJ?usp=drive_link). 
+
 When you finish the download, please unpack the trained weight and put it into *checkpoint* dictionary. 
 
 --- 
