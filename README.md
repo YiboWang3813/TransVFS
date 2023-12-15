@@ -21,6 +21,7 @@ pandas == 1.1.5
 pillow == 1.8.1 
 scipy == 1.5.2 
 matplotlib == 3.2.2 
+nibabel == 3.2.1 
 ```
 
 ---
