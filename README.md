@@ -1,10 +1,4 @@
-# The Official Implemention of TransVFS 
-
-**Title:** TransVFS: A Spatio-Temporal Local-Global Transformer for Vision-based Force Sensing during Ultrasound-guided Prostate Biopsy 
-
-**Authors:** Yibo Wang, Zhichao Ye, Mingwei Wen, Huageng Liang, and Xuming Zhang
-
-**Contact:** zxmboshi@hust.edu.cn
+# The Official Implemention of TransVFS  
 
 --- 
 
@@ -28,7 +22,7 @@ nibabel == 3.2.1
 
 # Dataset Download 
 
-You can download our test dataset during the pushing stage on the TRUS dataset of Phantom from [Google Drive](https://drive.google.com/drive/folders/1YC87VCj74Zg5Y9DNk1sKIgx-jvQdtIWb?usp=drive_link). 
+You can download our test dataset during the pushing stage on the TRUS dataset of phantom from [Google Drive](https://drive.google.com/drive/folders/1YC87VCj74Zg5Y9DNk1sKIgx-jvQdtIWb?usp=drive_link). 
 
 When you finish the download, please unpack the test dataset and put it into *dataset* dictionary. 
 
@@ -73,6 +67,8 @@ python main.py --eval \
 --gap 'Simple' \
 --batch_size 8
 ```
+
+--- 
 
 # Notice 
 
